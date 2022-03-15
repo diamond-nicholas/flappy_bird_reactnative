@@ -1,9 +1,11 @@
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Bird from './Components/Bird';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello world this my app runs on expo</Text>
+      <Bird />
     </View>
   );
 }
